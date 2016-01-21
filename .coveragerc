@@ -1,0 +1,5 @@
+[run]
+include = scoop_django/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
